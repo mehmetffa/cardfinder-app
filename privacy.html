@@ -11,7 +11,7 @@
 <main>
   <p class="brand"><a href="./">CardFinder AI: Card Scanner</a></p>
   <h1>Privacy Policy</h1>
-  <p class="muted">Effective date: November 10, 2026</p>
+  <p class="muted">Effective date: November 11, 2026</p>
 
   <p>This policy explains what information CardFinder AI: Card Scanner ("CardFinder AI", "the app") handles and
   why. CardFinder AI is developed by Mehmet Emin Yazıcıoğlu, an individual developer ("we", "us").</p>
@@ -42,6 +42,13 @@
     <li><strong>Usage counts:</strong> how many scans and AI Pre-Grades you've used, and when you last scanned.</li>
     <li><strong>Subscription status:</strong> whether you have Premium, which plan and when it ends, so the
     server can unlock Premium features.</li>
+    <li><strong>Price alerts:</strong> if you set a price alert, the card, your target price and currency are
+    stored with your anonymous ID so our server can check the price and notify you.</li>
+    <li><strong>Notification token:</strong> if you allow notifications, Apple's push token for this device and
+    the app's language, used only to send your price alerts through Apple Push Notification service.</li>
+    <li><strong>App integrity check:</strong> the app uses Apple's App Attest to show our server that requests
+    come from the genuine app on a real Apple device. We store the resulting device key ID and public key with
+    your anonymous ID. It contains no personal information.</li>
     <li><strong>Abuse protection:</strong> short-lived request counters keyed by your anonymous ID and IP address,
     used only to stop abuse. They're deleted within about a day.</li>
   </ul>
@@ -59,8 +66,10 @@
   never information about you.</p>
 
   <h2>Purchases</h2>
-  <p>Payments are handled by Apple. We don't receive your name, e-mail, payment details or Apple Account. We only
-  learn whether a subscription is active.</p>
+  <p>Payments are handled by Apple. We don't receive your name, e-mail, payment details or Apple Account. To
+  confirm a subscription, the app sends the purchase transaction and your anonymous ID to
+  <a href="https://adapty.io/privacy-policy/">Adapty</a> (Adapty Tech Inc.), which checks it with Apple as our
+  service provider. We only learn whether a subscription is active, which plan and when it ends.</p>
 
   <h2>What we don't do</h2>
   <ul>
@@ -75,7 +84,7 @@
 
   <h2>Your rights and deleting your data</h2>
   <p>Open Settings → Delete my data in the app. This deletes your collection on the device and your anonymous ID,
-  usage counts and subscription record on our server. Purchases stay with your Apple Account and come back with
+  usage counts, subscription record, price alerts, notification tokens and App Attest keys on our server. Purchases stay with your Apple Account and come back with
   Restore Purchases. Depending on where you live (for example under the GDPR or Turkey's KVKK) you may have
   further rights to access or delete personal data; contact us at the address below.</p>
 
